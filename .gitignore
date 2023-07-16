@@ -22,8 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.env
 
 # Project Folder ...
 project_ai_summarizer
-
-.env
