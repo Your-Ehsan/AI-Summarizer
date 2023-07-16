@@ -25,3 +25,5 @@ dist-ssr
 
 # Project Folder ...
 project_ai_summarizer
+
+.env
