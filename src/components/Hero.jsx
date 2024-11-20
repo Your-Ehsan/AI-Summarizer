@@ -1,28 +1,25 @@
-import { logo } from "../assets";
-
 function Hero() {
   return (
     <>
       <header className="w-full flex justify-center items-center flex-col">
         <nav className="flex justify-between items-center w-full mb-10 pt-3">
-          <img src={logo} alt="logo" className="w-28 object-contain" />
-          <button
-            onClick={() => window.open("anyurl...", "_blank")}
-            className="black_btn"
-          >
-            Github
-          </button>
+          <div className="flex ">
+            <h1 className="text-6xl font-extrabold bg-gradient-to-r from-purple-500 via-teal-500 to-red-500 text-transparent bg-clip-text">
+              Summarizer
+            </h1>
+          </div>
+          <button className="black_btn">Github</button>
         </nav>
 
         <h1 className="head_text">
-          Summarize articles with&nbsp;
+          Generate Article Summaries Using&nbsp;
           <br className="max-md:hidden" />
-          <span className="orange_gradient">Open Ai GPT-4</span>
+          <span className="orange_gradient">Artificial intelligence </span>
         </h1>
         <h2 className="desc">
-          Simplify your reading from summerizer & many more stuff like this one
-          i dont know what i am writing there because this is not my work just
-          practice.
+          With OpenAI GPT-4, summarizing articles becomes a seamless process,
+          offering concise and accurate insights from even the most complex
+          texts.
         </h2>
       </header>
     </>
