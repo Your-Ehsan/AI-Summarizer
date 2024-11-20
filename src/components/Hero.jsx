@@ -16,12 +16,16 @@ function Hero() {
               Summarizer
             </h1>
           </div>
-          <a href="https://github.com/Your-Ehsan/AI-Summarizer" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Your-Ehsan/AI-Summarizer"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="black_btn">Github</button>
           </a>
         </motion.nav>
         <motion.div
-          className="h-[calc(100dvh_-_20rem)] grid items-center content-center"
+          className="h-[calc(100dvh_-_20rem)] grid items-center content-center justify-items-center"
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
         >
