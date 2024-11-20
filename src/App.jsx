@@ -1,4 +1,4 @@
-import Demo from "./components/Demo";
+import Summarizer from "./components/Summarizer";
 import Hero from "./components/Hero";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         </div>
         <div className="app">
           <Hero />
-          <Demo />
+          <Summarizer />
         </div>
       </main>
     </>

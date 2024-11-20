@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
 
-export default function Demo() {
+export default function Summarizer() {
   const [article, setArticle] = useState();
   const [allArticles, setAllArticles] = useState([]);
   const [copied, setCopied] = useState("");
